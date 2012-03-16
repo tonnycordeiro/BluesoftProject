@@ -1,0 +1,115 @@
+/*
+Design name: RS16
+Designed by: Roshan
+Email : c.pixels@gmail.com
+*/
+
+* { padding:0; margin:0;
+}
+/*BEGIN: changes by Tonny Cordeiro for bluesoft project*/
+#ps-field {font:11px "Trebuchet MS", Arial, Helvetica, sans-serif;color: #999999}
+#error-message{color:red;margin-left:20px;font:small;}
+#aboutme-full {padding:9px 19px 0 9px; }
+#aboutme-full h2 {color:#8e9056;}
+.button-search {width:90px;}
+/*END: changes by Tonny Cordeiro for bluesoft project*/
+
+.clear {clear:both;}
+html {background:url(images/htmlbg.jpg) repeat;}
+body {display:block; background:url(images/bodybg.jpg) center top no-repeat;height:100%; font-family:Georgia, "Times New Roman", Times, serif; font-size:16px; color:#49433A;}
+#wrap { width:690px;  margin:auto; padding-bottom:20px;}
+#sitename {padding:15px 5px 2px 5px; font: normal 36px Georgia, "Times New Roman", Times, serif; display:block; color:#000}
+#sitename a {
+	color: #000;
+}
+#sitename .smalltext {display:block; font: normal normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif!important; color:#000;}
+#content {width:645px; float:left; background:url(images/pagebg.jpg) repeat-y;}
+#content-top {background:url(images/pagebgtop.jpg) no-repeat; height:8px; display:block;}
+#content-bottom {background:url(images/pagebgbottom.jpg) no-repeat; height:13px; display:block;}
+#content-inner { padding:5px 13px 0 13px;}
+#main-nav { padding-top:35px; margin:0 0 0 -8px; z-index:500; float:left;   width:45px;}
+#main-nav ul {list-style:none; display:block;}
+#main-nav li {margin:0; padding:0; line-height:0; font-size:1px;}
+#main-nav li a {display:block; float:left; background:url(images/menunormal.png) no-repeat; height:45px; padding:26px 0 0 2px; width:41px; border:none!important;}
+#main-nav li a:hover, #main-nav li.active a {background:url(images/menuactive.png) no-repeat;}
+#main-nav li.inactive a {background:url(images/menunormal.png) no-repeat;}
+
+#main-nav #first .active a {background:url(images/firstactive.png) no-repeat;}
+#main-nav li img{border:none; margin:0; padding:0;}
+#main-nav li #first {background:url(images/firstnormal.png) no-repeat;}
+#main-nav li.active a#fist {background:url(images/firstactive.png) no-repeat!important;}
+#header {background:url(images/header.jpg) no-repeat; height:213px;}
+
+#pagebottom {background:url(images/footerbg.png) center top no-repeat; width: 634px; height:50px; margin:0;}
+#pagebottom span {display: block; font-size: 11px;}
+#pagebottom .right {width:20%; float: right; padding: 7px 35px 3px 0; text-align: right;}
+#pagebottom .left {width:60%; float: left; padding: 14px 3px 0 3px;}
+#footerbottom{background:#000; height:15px;}
+#aboutme {padding:9px 19px 0 345px; }
+h1 {font:bold 22px Georgia, "Times New Roman", Times, serif;}
+h2 {font: normal 18px Georgia, "Times New Roman", Times, serif; color:#000; display:block; margin-bottom:4px;}
+p {line-height:22px; font-family:Georgia, "Times New Roman", Times, serif;}
+h1 a, h2 a, h3 a, h4 a {border:none!important; color:#000;}
+img {border:none;}
+/*.post a {border:none!important;}*/
+#aboutme h2 {color:#8e9056;}
+a, a:visited, a:active {color:#8e9056; text-decoration:none; border-bottom: dashed 1px #8e9056;}
+.post a:hover {color: #000; border: none!important; text-decoration: none;}
+#homepageposts {padding:10px 0  0;}
+#homepageposts .post {background:url(images/postbottombg.jpg) left bottom repeat-x; padding:8px 8px 10px 8px; font-family:"Trebuchet MS", Verdana, Helvetica, sans-serif; }
+
+#homepageposts .datebox {background:url(images/datebox.jpg) no-repeat; width:42px; padding:5px 4px 0 3px; height:56px; float:left;}
+#homepageposts .postcontent { float:right; width:540px;}
+#homepageposts h2 { margin-right:100px; margin-bottom:7px;}
+#homepageposts .postcontent .commentsbox {background:url(images/comments.jpg) 0px 6px  no-repeat; height:23px; padding:3px 0 0 25px; width:50px; float:right;}
+.datebox .date {font:bold 28px "Trebuchet MS", Verdana, Helvetica, sans-serif; color:#fff; text-align:center; display:block; height:36px;}
+.datebox .month_year {font:12px "Trebuchet MS", Verdana, Helvetica, sans-serif; color:#fff; text-align:center; display:block; padding:2px 0 0 0;}
+.post p {color:#777; margin-bottom:22px;}
+.pagination {background:url(images/paginationbg.gif) repeat-x; height:30px; padding:6px 5px 0 5px; font: bold 14px "Trebuchet MS", Verdana, Helvetica, sans-serif; margin-bottom: 1px;}
+.pagination a, .pagination a:visited, .pagination a:active {display:block; padding:3px 6px 3px 6px; float:left; border: solid 1px #d5d3cc; color:#999; margin-right:3px;}
+.pagination span {display:block; padding:3px; float:left; padding:3px 6px 3px 6px; border: solid 1px #d5d3cc; margin-right:3px;}
+.pagination .current, .pagination a:hover {background:#fff; color:#000;}
+
+#contentfooter {background: url(images/contentbtm_bg.jpg) repeat;}
+#cf_inner {background: url(images/contentbtm_top.jpg) center top no-repeat; padding:7px 10px 0 10px; height:50px; }
+#contentbtm_bar {background: url(images/contentbtm_footer.jpg) repeat-x; height: 28px;}
+#contentbtm_bar span {display: block; font-size: 11px; color: #c9c4b5; font-family: Verdana; }
+#contentbtm_bar a, #contentbtm_bar a:visited, #contentbtm_bar a:active {color: #c9c4b5; text-decoration: none;}
+#contentbtm_bar a:hover {text-decoration:none; color: #fff;}
+#contentbtm_bar .left {float: left; width:60%; padding: 10px 0 0 10px;}
+#contentbtm_bar .right {margin-left: 62%; padding: 8px 3px 0 5px; text-align: right;}
+#twitter {background: url(images/twitterbg.jpg) no-repeat; height: 90px;}
+#bottombar {background: url(images/bluebg.jpg) repeat; padding: 5px 2px 5px 2px;}
+#categories {background: url(images/categories.jpg) no-repeat; width:217px; height: 267px; float: left; padding: 35px 20px 0 70px;}
+#newposts {background: url(images/posts.jpg) no-repeat; width:217px; height: 267px; float: right; padding: 35px 20px 0 70px;}
+.tweet {padding:25px 109px 15px 70px;}
+.normalpage1 {background: url(images/normalpagebg1.jpg) 16px 8px no-repeat;}
+.normalpage2 {background: url(images/normalpagebg2.jpg) 16px 8px no-repeat;}
+.normalpage3 {background: url(images/normalpagebg3.jpg) 16px 8px no-repeat;}
+.normalpage4 {background: url(images/normalpagebg4.jpg) 16px 8px no-repeat;}
+
+#pagetitle h1 {display:block; padding:5px 20px 0 65px; font: normal 28px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff;}
+#pagetitle {height:50px;}
+
+.formcontainer {padding:20px 20px 10px 0;}
+.formcontainer form {padding:0 15px 0 35px;}
+.formcontainer .field {padding:5px;}
+.formcontainer label {display:block;}
+.formcontainer input {display:block;}
+.formcontainer textarea {display:block;}
+input.txt {border: solid 1px #ccc; width:230px; padding:2px;}
+textarea.txt {border: solid 1px #ccc; width:230px; padding:2px;}
+#pagebottom {font:11px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.alignleft {float:left;}
+.alignright {float:right;}
+img.alignleft {margin-right:10px;}
+img.alignright {margin-left:10px;}
+.post ul {list-style:none; margin-bottom:18px;}
+.post ul li { display:block; padding:3px 10px 3px 20px; border-bottom:dashed 1px #cacaca;}
+.post ol {
+	padding-left:30px;
+	
+}
+.post ol li { padding:3px 10px 3px 0; }
+blockquote {display:block; width:230px; float:right; font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; margin-left:15px; border-bottom: solid 1px #ccc; border-top: solid 1px #ccc; padding:10px;}
+blockquote p {margin-bottom:10px!important; color:#000!important;}
